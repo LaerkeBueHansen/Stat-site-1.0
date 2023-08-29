@@ -1,0 +1,130 @@
+/* Reset CSS for at fjerne standardmargener og padding */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for header */
+header {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Styling for hovedindhold */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styling for produktbilledet */
+.product-image {
+  text-align: center;
+}
+
+.product-image img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for produktinformation */
+.product-details {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.product-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-details p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product-details a {
+  color: #0078d4;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.product-details a:hover {
+  color: #005499;
+}
+
+/* Styling for kategorilinks */
+.product-categories {
+  margin-top: 20px;
+}
+
+.product-categories a {
+  margin-right: 10px;
+  color: #0078d4;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.product-categories a:hover {
+  color: #005499;
+}
+
+/* Styling for pris og købsknap */
+.product-price {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.buy-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0078d4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+  background-color: #005499;
+}
+
+/* Styling for relaterede produkter (hvis nødvendigt) */
+.related-products {
+  margin-top: 40px;
+}
+
+/* Styling for footer (hvis nødvendigt) */
+footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Styling for størrelsesvalg */
+.size-option {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Styling for den valgte størrelse */
+.size-option.selected {
+  background-color: #0078d4;
+  color: #fff;
+  border-color: #0078d4;
+}
